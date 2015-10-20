@@ -62,6 +62,9 @@ Each PBX Account has following characteristics:
 2. 	**Trunks** - Trunks are definitions of the SIP providers you want to use for receiving inbound calls and/or placing outbound calls. Inbound calls are routed to extensions using inbound routes, and outbound calls are routed to a trunk using the outbound routes. For receiving inbound calls it is necessary to register to the SIP provider[8].
 Note: Our major focus is to implement a SIP client on Android smartphone.
 
+###**Milestone 1.2**
+- **Understanding Potential VoIP Vulnerabilities**
+Please find File [Milestone 1.2 VoIP Vulnerabilities.docx] for details on potential VoIP Vulnerabilties. 
 
 ####**References**
 

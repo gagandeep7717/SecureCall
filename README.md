@@ -41,7 +41,7 @@ Following are the protocols to be used in implementation:
 
 
 ###**Milestone 1.1**
-- **Understanding VoIP implementation**
+**Understanding VoIP implementation**
 
 We are using PBX service provided by [PBXes.com](https://www2.pbxes.com/). 
 A **private branch exchange (PBX)** is a switching system that serves a private organization and provides intercommunication between two end points. 
@@ -63,7 +63,8 @@ Each PBX Account has following characteristics:
 Note: Our major focus is to implement a SIP client on Android smartphone.
 
 ###**Milestone 1.2**
-- **Understanding Potential VoIP Vulnerabilities**
+**Understanding Potential VoIP Vulnerabilities**
+
 Please find File [Milestone 1.2 VoIP Vulnerabilities.docx] for details on potential VoIP Vulnerabilties. 
 
 ####**References**

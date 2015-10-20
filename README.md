@@ -42,15 +42,26 @@ Following are the protocols to be used in implementation:
 
 ###**Milestone 1.1**
 - **Understanding VoIP implementation**
+
 We are using PBX service provided by [^stackedit]: [PBXes.com](https://www2.pbxes.com/). 
 A **private branch exchange (PBX)** is a switching system that serves a private organization and provides intercommunication between two end points. 
 The aspect of a PBX permits the shared use of these lines between all stations in the organization. 
 Each PBX-connected station, an Android Phone in our case, is often referred to as an extension and has a designated extension telephone number that may or may not be mapped automatically to the numbering plan of the central office and the telephone number block allocated to the PBX.[[7]]
 Since we are using a free account of PBX, it lets us create only 5 extensions. We have created two write now for testing purposes and others can be added later as required. The number of extensions can be increased by purchasing premium account provided by PBXes.com.
+
+Functionally, the PBX performs four main call processing duties:[7]
+
+1. Establishing connections (circuits) between the telephone sets of two users (e.g. mapping a dialed number to a physical phone, ensuring the phone isn't already busy)
+2. Maintaining such connections as long as the users require them (i.e. channelling voice signals between the users)
+3. Disconnecting those connections as per the user's requirement
+4. Providing information for accounting purposes (e.g. metering calls)
+
 Each PBX Account has following characteristics:
-	-	**Extensions** - An extension is just the definition of a classic SIP (VOIP) telephone line/number. SIP extensions are normally used to register SIP devices to, like SIP phones, softphones or ADSL modems having SIP capabilities. Unlike classic extensions, SIP extensions can be used to place calls too[[8]].
-	-	**Trunks** - Trunks are definitions of the SIP providers you want to use for receiving inbound calls and/or placing outbound calls. Inbound calls are routed to extensions using inbound routes, and outbound calls are routed to a trunk using the outbound routes. For receiving inbound calls it is necessary to register to the SIP provider[[8]].
+
+1. **Extensions** - An extension is just the definition of a classic SIP (VOIP) telephone line/number. SIP extensions are normally used to register SIP devices to, like SIP phones, softphones or ADSL modems having SIP capabilities. Unlike classic extensions, SIP extensions can be used to place calls too[[8]].
+2. 	**Trunks** - Trunks are definitions of the SIP providers you want to use for receiving inbound calls and/or placing outbound calls. Inbound calls are routed to extensions using inbound routes, and outbound calls are routed to a trunk using the outbound routes. For receiving inbound calls it is necessary to register to the SIP provider[[8]].
 Note: Our major focus is to implement a SIP client on Android smartphone.
+
 
 ####**References**
 
